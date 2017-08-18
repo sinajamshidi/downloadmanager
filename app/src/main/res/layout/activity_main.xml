@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="#2cdac9"
+    android:padding="16dp">
+    <ImageView
+        android:src="@drawable/d"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:textColorHighlight="#000000"
+        android:hint="enter your url"
+        android:id="@+id/url"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:background="@drawable/selector"
+        android:layout_marginTop="16dp"
+        android:text="download"
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <ProgressBar
+
+        android:id="@+id/progres"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="100"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/result"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>
